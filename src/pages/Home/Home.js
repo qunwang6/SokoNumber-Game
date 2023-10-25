@@ -28,7 +28,7 @@ class Home extends React.Component{
         return (
             <div className="home-page">
                 <div className="home-page-content">
-                    <p>SOKONUMBER</p>
+                    <p></p>
                     <p>Choose level :</p>
                     <div className="home-page-levels">
                         {this.levels.map(value  => <span key={value} className={value===this.state.level ? 'active' : ''} onClick={() => this.handleClick(value , this.state.method)}>{value}</span>)}
